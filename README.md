@@ -57,3 +57,6 @@ akasha-discovery — discovery engine
 akasha-constellation — ecosystem map  
 
 All repositories derive their authority from these axioms.
+
+
+This repository participates in the Akasha ecosystem and is described by repo-manifest.yaml.
