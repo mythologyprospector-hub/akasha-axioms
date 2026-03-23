@@ -3,32 +3,36 @@ repo:
   ecosystem: akasha
   version: 0.1.0
   status: foundational
-
 identity:
   role: law
   layer: foundation
-  description: >
-    Canonical laws and governance principles for the Akasha ecosystem.
+  description: 'Canonical laws and governance principles for the Akasha ecosystem.
 
+    '
 ownership:
   steward: human
   approval_required: true
-
 interfaces:
   consumes: []
   produces:
-    - governance_rules
-    - discovery_doctrine
-    - tool_creation_doctrine
-
+  - governance_rules
+  - discovery_doctrine
+  - tool_creation_doctrine
 capabilities:
-  - define_laws
-  - govern_ecosystem
-  - constrain_system_behavior
-
+- define_laws
+- govern_ecosystem
+- constrain_system_behavior
 alignment:
   canonical_structure: true
-
 execution:
   runtime: human-authored
   automation_level: none
+name: akasha-axioms
+type: module
+status:
+  maturity: experimental
+  confidence: low
+  active: true
+role: concept
+domain: systems
+depends_on: []
