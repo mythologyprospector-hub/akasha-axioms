@@ -37,3 +37,8 @@ role: concept
 domain: systems
 depends_on:
 - akasha-world
+
+engine:
+  family: ontology
+  class: concept_engine
+  role: unknown
